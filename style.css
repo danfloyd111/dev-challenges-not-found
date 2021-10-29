@@ -116,7 +116,7 @@ footer {
 }
 
 footer a:visited {
-  color: #bdbdbd;
+  color: #bdbdbd !important;
 }
 
 @media only screen and (max-width: 1065px) {
@@ -211,5 +211,19 @@ footer a:visited {
     font-size: 12px;
     line-height: 16px;
     margin-bottom: 90px;
+  }
+}
+
+/* Dark mode */
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: black;
+  }
+
+  header,
+  .info-and-button h1,
+  .info-and-button p {
+    color: #ebeef6;
   }
 }
