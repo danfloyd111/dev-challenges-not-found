@@ -35,7 +35,7 @@
 
 ## Overview
 
-![screenshot](https://github.com/danfloyd111/dev-challenges-not-found/blob/master/screenshot.png?raw=true)
+![screenshot](https://github.com/danfloyd111/dev-challenges-not-found/blob/master/img/screenshot.png?raw=true)
 
 You can find the live demo [here](https://danfloyd111.github.io/dev-challenges-not-found/index.html), it has been fun completing this challenge. I took the freedom to add more than one media query breakpoint to have a better transition from large screens to smartphones.
 
