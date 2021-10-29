@@ -59,7 +59,7 @@ header {
 }
 
 .info-and-button h1 {
-  font-family: Space Mono;
+  font-family: "Space Mono";
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -70,7 +70,7 @@ header {
 }
 
 .info-and-button p {
-  font-family: Space Mono;
+  font-family: "Space Mono";
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -106,7 +106,7 @@ header {
 footer {
   color: #bdbdbd;
   text-align: center;
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -117,4 +117,99 @@ footer {
 
 footer a:visited {
   color: #bdbdbd;
+}
+
+@media only screen and (max-width: 1065px) {
+  .info-and-button h1 {
+    font-size: 50px;
+    line-height: 80px;
+  }
+
+  .info-and-button p {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .info-and-button a {
+    height: 56px;
+    min-width: 198px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    grid-template-columns: 48px 1fr 1fr 48px;
+  }
+
+  header {
+    padding: 40px 48px 0 48px;
+  }
+
+  .info-and-button h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .info-and-button p {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 28px 0 56px 0;
+  }
+
+  .info-and-button a {
+    height: 50px;
+    min-width: 190px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  body {
+    grid-template-columns: 24px 1fr 1fr 24px;
+  }
+
+  header {
+    padding: 40px 24px 0 24px;
+  }
+
+  .page {
+    flex-direction: column;
+  }
+
+  .hero-image-container {
+    padding-top: 64px;
+    padding-bottom: 60px;
+  }
+
+  .hero-image {
+    max-width: 286px;
+  }
+
+  .info-and-button {
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 0;
+  }
+
+  .info-and-button h1 {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  .info-and-button p {
+    font-size: 18px;
+    line-height: 24px;
+    margin: 28px 0 56px 0;
+  }
+
+  .info-and-button a {
+    height: 50px;
+    min-width: 190px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 90px;
+  }
 }
