@@ -42,6 +42,7 @@ You can find the live demo [here](https://danfloyd111.github.io/dev-challenges-n
 ### Built With
 
 - Plain HTML5 and CSS
+- A few Javascript lines
 
 ## Features
 

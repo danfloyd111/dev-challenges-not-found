@@ -119,6 +119,16 @@ footer a:visited {
   color: #bdbdbd !important;
 }
 
+body.dark-theme {
+  background: black;
+}
+
+body.dark-theme header,
+body.dark-theme .info-and-button h1,
+body.dark-theme .info-and-button p {
+  color: #ebeef6;
+}
+
 @media only screen and (max-width: 1065px) {
   .info-and-button h1 {
     font-size: 50px;
@@ -225,5 +235,18 @@ footer a:visited {
   .info-and-button h1,
   .info-and-button p {
     color: #ebeef6;
+  }
+
+  body.light-theme {
+    background: white;
+  }
+
+  body.light-theme header,
+  body.light-theme .info-and-button h1 {
+    color: #333333;
+  }
+
+  body.light-theme .info-and-button p {
+    color: #4f4f4f;
   }
 }
